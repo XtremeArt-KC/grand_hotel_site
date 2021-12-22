@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-5.15.1-web/css/all.css"
+    />
+    <title>GH</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <!--nav-elements-->
+        <nav class="nav">
+          <!--logo-->
+          <a href="index.html" class="logo">
+            <h2 class="logo-icon">grand hotel</h2>
+          </a>
+
+          <!--menu-elements-->
+          <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+          </div>
+
+          <!--list-items-->
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#rooms" class="nav-link">explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#offer" class="nav-link offer-btn">offer</a>
+            </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+
+      <!-- hero section -->
+      <div class="hero">
+        <div class="container">
+          <div class="main-heading">
+            <h1 class="title">explore...</h1>
+            <h2 class="subtitle">Affordable, laxury, beautiful hotels</h2>
+          </div>
+          <a href="#rooms" class="btn btn-gradient"
+            >Look around
+            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- booking section -->
+    <section class="booking">
+      <div class="container">
+        <form action="" class="form book-form">
+          <div class="input-group">
+            <label for="destination" class="input-label">destination</label>
+            <input type="text" class="input" id="destination" placeholder="desired destination">
+          </div>
+          <div class="input-group">
+            <label for="check-in" class="input-label">check in</label>
+            <input type="date" class="input" id="check-in">
+          </div>
+          <div class="input-group">
+            <label for="check-out" class="input-label">check out</label>
+            <input type="date" class="input" id="check-out">
+          </div>
+          <div class="input-group">
+            <label for="adults" class="input-label">adults</label>
+            <select id="adults" class="options">
+              <option class="selected" value="0" selected>select a value</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="4">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="children" class="input-label">children</label>
+            <select id="children" class="options">
+              <option class="selected" value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="4">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <button type="submit"class="btn form-btn btn-purple">search available
+            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- suggestions -->
+    <section class="hotels">
+      <div class="container">
+        <h5 class="section-head">
+          <span class="heading">suggestions</span>
+          <span class="sub-heading">Beautiful, ellegant top "saught-after" hotels selected just for you. </span>
+        </h5>
+        <div class="grid">
+          <div class="grid-item featured-hotels">
+            <img src="./images/hotel-1.jpg" alt="" class="hotel-image">
+            <h5 class="hotel-name">five star hotel</h5>
+            <span class="hotel-price">from $200/Night</span>
+            <div class="hotel-rating">
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+            </div>
+            <a href="#" class="btn btn-gradient">book now
+              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            </a>
+          </div>
+          <div class="grid-item featured-hotels">
+            <img src="./images/hotel-2.jpg" alt="" class="hotel-image">
+            <h5 class="hotel-name">west gate hotel</h5>
+            <span class="hotel-price">from $566/Night</span>
+            <div class="hotel-rating">
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+            </div>
+            <a href="#" class="btn btn-gradient">book now
+              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            </a>
+          </div>
+          <div class="grid-item featured-hotels">
+            <img src="./images/hotel-3.jpg" alt="" class="hotel-image">
+            <h5 class="hotel-name">jakaranda hotel</h5>
+            <span class="hotel-price">from $466/Night</span>
+            <div class="hotel-rating">
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+            </div>
+            <a href="#" class="btn btn-gradient">book now
+              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- offer section -->
+    <section class="offer" id="offer">
+      <div class="container">
+        <div class="offer-content">
+          <div class="discount">
+            40% off
+          </div>
+
+          <h5 class="hotel-name">Five star hotel</h5>
+          <div class="hotel-rating">
+            <i class="fas fa-star rating"></i>
+            <i class="fas fa-star rating"></i>
+            <i class="fas fa-star rating"></i>
+            <i class="fas fa-star rating"></i>
+            <i class="fas fa-star-half rating"></i>
+          </div>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, enim possimus quos, est debitis voluptatum neque aliquid explicabo assumenda recusandae placeat
+          </p>
+          <a href="#" class="btn btn-gradient">redeem offer
+            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- rooms section -->
+    <section class="rooms" id="rooms">
+      <div class="container">
+
+        <h5 class="section-head">
+          <span class="heading">explore</span>
+          <span class="sub-heading">Here are a variety of our fine, pocket-friendly rooms, see for yourself..</span>
+        </h5>
+
+        <div class="grid rooms-grid">
+
+          <div class="grid-item featured-rooms">
+
+            <div class="image-wrap">
+              <img src="./images/room-2.jpg" alt="" class="room-image">
+              <h5 class="room-name">Hillcrest hotel</h5>
+            </div>
+
+            <div class="room-info-wrap">
+              <span class="room-price">$399 <span class="per-night">per night</span></span>
+              <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ex in a aperiam exercitationem architecto magni.
+              </p>
+              <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+            </div>
+
+          </div>
+
+          <div class="grid-item featured-rooms">
+          
+            <div class="image-wrap">
+              <img src="./images/room-3.jpg" alt="" class="room-image">
+              <h5 class="room-name">lavingtone hotel</h5>
+            </div>
+          
+            <div class="room-info-wrap">
+              <span class="room-price">$599 <span class="per-night">per night</span></span>
+              <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ex in a aperiam exercitationem architecto magni.
+              </p>
+              <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          
+          </div>
+
+          <div class="grid-item featured-rooms">
+          
+            <div class="image-wrap">
+              <img src="./images/room-4.jpg" alt="" class="room-image">
+              <h5 class="room-name">china town hotel</h5>
+            </div>
+          
+            <div class="room-info-wrap">
+              <span class="room-price">$367 <span class="per-night">per night</span></span>
+              <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ex in a aperiam exercitationem architecto magni.
+              </p>
+              <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          
+          </div>
+
+          <div class="grid-item featured-rooms">
+          
+            <div class="image-wrap">
+              <img src="./images/room-5.jpg" alt="" class="room-image">
+              <h5 class="room-name">dubai hotel</h5>
+            </div>
+          
+            <div class="room-info-wrap">
+              <span class="room-price">$677 <span class="per-night">per night</span></span>
+              <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ex in a aperiam exercitationem architecto magni.
+              </p>
+              <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          
+          </div>
+          <div class="grid-item featured-rooms">
+          
+            <div class="image-wrap">
+              <img src="./images/room-6.jpg" alt="" class="room-image">
+              <h5 class="room-name">jakaranda hotel</h5>
+            </div>
+          
+            <div class="room-info-wrap">
+              <span class="room-price">$200 <span class="per-night">per night</span></span>
+              <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ex in a aperiam exercitationem architecto magni.
+              </p>
+              <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          
+          </div>
+
+          <div class="grid-item featured-rooms">
+          
+            <div class="image-wrap">
+              <img src="./images/five-star.jpg" alt="" class="room-image">
+              <h5 class="room-name">xtremeArt hotel</h5>
+            </div>
+          
+            <div class="room-info-wrap">
+              <span class="room-price">$210 <span class="per-night">per night</span></span>
+              <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ex in a aperiam exercitationem architecto magni.
+              </p>
+              <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h5 class="section-head">
+          <span class="heading">talk to us</span>
+          <span class="sub-heading">Want to explore, book a room or set up an ample reserved place for a function or evet? <br> talk to our 24/7 friendly customer service team, get feedback within 24hrs.</span>
+        </h5>
+        <div class="contact-content">
+          <div class="traveler-wrap">
+            <img src="./images/traveller-image.jpg" alt="">
+          </div>
+          <form class="form contact-form">
+
+            <div class="input-group-wrap">
+              <div class="input-group">
+                <input type="text" class="input" placeholder="Name" required>
+                <span class="bar"></span>
+              </div>
+              <div class="input-group">
+                <input type="email" class="input" placeholder="E-mail" required>
+                <span class="bar"></span>
+              </div>
+            </div>
+              <div class="input-group">
+                <input type="text" class="input" placeholder="Subject" required>
+                <span class="bar"></span>
+              </div>
+              <div class="input-group">
+                <textarea class="input" cols="30" rows="8" placeholder="Message here" required></textarea>
+                <span class="bar"></span>
+              </div>
+              <button type="submit" class="btn form-btn btn-purple">Send message
+                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+              </button>
+           
+          </form>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container grid">
+        <div class="footer-content">
+          <div class="footer-content-brand">
+            <!--logo-->
+          <a href="index.html" class="logo">
+            <h2 class="logo-icon">grand hotel</h2>
+          </a>
+          <span class="about-us">About Us</span>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, odio.consectetur adipisicing elit. Illum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim blanditiis, quaerat id error architecto quidem fugit ipsam laborum asperiores.
+            </p>
+          </div>
+
+          <div class="social-media-wrap">
+            <h4 class="footer-heading">follow us on</h4>
+            <p>get us accross all social media platforms</p>
+            <div class="social-media">
+              <a href="#" class="sm-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="sm-link"><i class="fab fa-facebook-square"></i></a>
+              <a href="#" class="sm-link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="sm-link"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="sm-link"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" class="sm-link"><i class="fab fa-pinterest"></i></a>
+              <a href="#" class="sm-link"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
